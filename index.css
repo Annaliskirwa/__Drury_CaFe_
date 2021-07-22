@@ -97,8 +97,8 @@ nav>ul>li>a:hover {
     padding-left: 50px;
 }
 #about > p:hover{
-    background-color: rgb(81, 67, 95);
-    color: white;
+    background-color: white;
+    color: black;
 }
 #customer > h4{
   
@@ -173,6 +173,11 @@ figcaption:hover{
     padding-right: 50px;
     text-align: center; 
 }
+#contacts p:hover{
+    background-color: white;
+    color: black;
+
+}
 em{
     color:yellow;
     font-weight: 600;
@@ -197,6 +202,7 @@ form{
 }
 ul>li>a:hover{
     color: red;
+    padding: 50px;
 }
 #footer{
     max-width: 960px;
