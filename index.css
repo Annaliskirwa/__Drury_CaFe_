@@ -46,3 +46,26 @@
     position:absolute;
     background-color: grey;
 }
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ nav > ul{
+    text-align: right;
+    display: inline-flex;
+}
+nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+    }
+    nav>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);
+        }
