@@ -21,3 +21,20 @@
     opacity: 1;
     z-index: 2;
  }
+ #banner{
+    padding-bottom: 1.5%;
+}
+#banner > h1{
+    border: 2px solid white;
+    width:20%;
+    height: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+}
+#banner > h1:hover{
+    background-color: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
