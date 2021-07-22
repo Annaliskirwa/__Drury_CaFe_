@@ -64,8 +64,39 @@ nav>ul>li>a {
     display: block;
     color: rgba(255, 255, 255, 0.733);
     }
-    nav>ul>li>a:hover {
+nav>ul>li>a:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
         background: rgba(221, 109, 35, 0.678);
         color: rgba(0, 35, 122, 0.7);
         }
+#about{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+}
+#about > h4{
+  
+    color:blueviolet;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 50px;
+  
+}
+#about > p{
+    color: darkgreen;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: center;
+}
+#about > img{
+    height: 300px;
+    width: 300px;
+    padding-left: 50px;
+}
+#about > p:hover{
+    background-color: rgb(81, 67, 95);
+    color: white;
+}
