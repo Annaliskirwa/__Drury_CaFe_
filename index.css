@@ -126,3 +126,81 @@ nav>ul>li>a:hover {
     padding-left: 40px;
     text-align: center; 
 }
+#menu{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: inline-flex;
+}
+#menu h4{
+    color:blueviolet;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+figcaption{
+    color:green;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 40px;
+    text-align: center; 
+}
+figcaption:hover{
+    color:indigo;
+}
+#contacts{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+}
+#contacts h4{
+  
+    color:blueviolet;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+}
+#contacts p{
+    color:orangered;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: center; 
+}
+em{
+    color:yellow;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 40px;
+    text-align: center; 
+
+}
+form{
+    color:purple;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+  
+}
+#footer > ul{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+ul>li>a:hover{
+    color: red;
+}
+#footer{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+}
